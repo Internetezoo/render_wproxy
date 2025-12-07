@@ -1,0 +1,23 @@
+{
+  "name": "render-simple-webproxy",
+  "version": "1.0.0",
+  "description": "Simple Reverse Proxy deployed on Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "proxy",
+    "render",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
